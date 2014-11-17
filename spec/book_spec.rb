@@ -3,7 +3,7 @@ require './book'
 
 describe "#title" do
     it "returns the correct title" do
-        @book.title.should eql "Title"
+        @book.title.should eql "title"
     end
 end
 describe "#author" do
@@ -13,6 +13,6 @@ describe "#author" do
 end
 describe "#category" do
     it "returns the correct category" do
-        @book.category.should eql :category
+        @book.category.should eql "category"
     end
 end
