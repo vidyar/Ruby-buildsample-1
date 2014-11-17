@@ -1,10 +1,18 @@
 require 'spec_helper.rb'
 require './bowling'
-
-describe Bowling, "#score" do
-  it "returns 0 for all gutter game" do
-    bowling = Bowling.new
-    20.times { bowling.hit(0) }
-    bowling.score.should eq(0)
-  end
+describe "#title" do
+    it "returns the correct title" do
+        @<span class="skimlinks-unlinked">book.title.should</span> eql "Title"
+    end
 end
+describe "#author" do
+    it "returns the correct author" do
+        @book.author.should eql "Author"
+    end
+end
+describe "#category" do
+    it "returns the correct category" do
+        @book.category.should eql :category
+    end
+end
+
