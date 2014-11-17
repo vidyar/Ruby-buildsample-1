@@ -1,4 +1,4 @@
-class Book
+class book
    # attr_accessor :title, :author, :category
         def initialize title, author, category
             @title = title
