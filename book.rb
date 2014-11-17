@@ -6,13 +6,13 @@ class Book
            # @category = category1
         end
 end
-def initialize author
+def author
            # @title = title1
             @author = author1
             #@category = category1
         end
 end
-def initialize category
+def category
            # @title = title1
            # @author = author1
             @category = category1
