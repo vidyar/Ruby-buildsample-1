@@ -3,7 +3,7 @@ require './book'
 
 describe "#title" do
     it "returns the correct title" do
-        @<span class="skimlinks-unlinked">book.title.should</span> eql "Title"
+        @book.title.should eql "Title"
     end
 end
 describe "#author" do
