@@ -5,13 +5,13 @@ class Book
           #  @author = author1
            # @category = category1
         end
-end
+
 def author
            # @title = title1
             @author = author1
             #@category = category1
         end
-end
+
 def category
            # @title = title1
            # @author = author1
